@@ -5,10 +5,7 @@ st.set_page_config(
     page_title="MedBot",
     page_icon="👨‍⚕️",
 )
-header = {
-    "authorization": st.secrets["OPENAI_API_KEY"],
-    "content-type": "application/json"
-}
+
 
 st.markdown("<h1 style='text-align: center;'>MedBot</h1>", unsafe_allow_html=True)
 st.header("", divider = 'rainbow')
